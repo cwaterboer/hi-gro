@@ -19,9 +19,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Admin from 'layouts/Admin.js'; // Ensure the path is correct
-import 'assets/css/nucleo-icons.css';
-import 'assets/css/black-dashboard-react.css';
-import 'assets/css/black-dashboard-react.min.css';
+// Commenting out the CSS imports for now
+//import 'assets/css/nucleo-icons.css';
+//import 'assets/css/black-dashboard-react.css';
+//import 'assets/css/black-dashboard-react.min.css';
 
 ReactDOM.render(
   <BrowserRouter>
