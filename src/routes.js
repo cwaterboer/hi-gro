@@ -21,6 +21,13 @@ var dashRoutes = [
   {
     path: "/dashboard",
     name: "Dashboard",
+    icon: "ni ni-tv-2 text-primary",
+    component: Dashboard,
+    layout: "/admin",
+  },
+  {
+    path: "/dashboard",
+    name: "Dashboard",
     rtlName: "لوحة القيادة",
     icon: <HomeIcon color="inherit" />,
     component: Dashboard,
